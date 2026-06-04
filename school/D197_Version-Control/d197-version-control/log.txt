@@ -1,0 +1,96 @@
+commit 367c1ea5e395cb4274ba0093a2eb4a0826a35f88
+Merge: 8f49949 238edf9
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 14:09:13 2026 -0400
+
+    Merge conflict resolved.
+
+commit 8f499496b26409ab84233883fcfe65bab1dac007
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 14:04:36 2026 -0400
+
+    Added git Version to README.md
+
+commit 238edf99bac5303b9fafedf9ad74061f755cfa7d
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 13:46:05 2026 -0400
+
+    Added Student ID to README.md
+
+commit b3b150b8ba652dee52e08d3cde471855102ea5b4
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 12:39:57 2026 -0400
+
+    Changed about.html. Changed poeple to people in Staffing section. Removed extra space in Training & Support section.
+
+commit 707295a98e863dc4892c05215cf2daf17848e674
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 12:37:11 2026 -0400
+
+    Changed customers.html. Fixed grammatical error in customer quote.
+
+commit 790c5074e87baf746adbbd5099340c17f4a3e47e
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 12:33:58 2026 -0400
+
+    Updated contact.html. Changed wording of Contact Us section's call to action.
+
+commit 194e1b48597d51a13e257693e74da80d2882b5c7
+Author: matt.alexander8 <matt@twocom.com>
+Date:   Thu Aug 24 14:47:21 2023 -0400
+
+    Added intial project
+
+commit 959a15aab3bfa9f105acbbf5d66930b053d28249
+Author: Matt Alexander <matt@twocom.com>
+Date:   Thu Aug 24 17:21:16 2023 +0000
+
+    Initial commit
+commit 367c1ea5e395cb4274ba0093a2eb4a0826a35f88
+Merge: 8f49949 238edf9
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 14:09:13 2026 -0400
+
+    Merge conflict resolved.
+
+commit 8f499496b26409ab84233883fcfe65bab1dac007
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 14:04:36 2026 -0400
+
+    Added git Version to README.md
+
+commit 238edf99bac5303b9fafedf9ad74061f755cfa7d
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 13:46:05 2026 -0400
+
+    Added Student ID to README.md
+
+commit b3b150b8ba652dee52e08d3cde471855102ea5b4
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 12:39:57 2026 -0400
+
+    Changed about.html. Changed poeple to people in Staffing section. Removed extra space in Training & Support section.
+
+commit 707295a98e863dc4892c05215cf2daf17848e674
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 12:37:11 2026 -0400
+
+    Changed customers.html. Fixed grammatical error in customer quote.
+
+commit 790c5074e87baf746adbbd5099340c17f4a3e47e
+Author: jkholmes89 <jkholmes1989@gmail.com>
+Date:   Wed Apr 22 12:33:58 2026 -0400
+
+    Updated contact.html. Changed wording of Contact Us section's call to action.
+
+commit 194e1b48597d51a13e257693e74da80d2882b5c7
+Author: matt.alexander8 <matt@twocom.com>
+Date:   Thu Aug 24 14:47:21 2023 -0400
+
+    Added intial project
+
+commit 959a15aab3bfa9f105acbbf5d66930b053d28249
+Author: Matt Alexander <matt@twocom.com>
+Date:   Thu Aug 24 17:21:16 2023 +0000
+
+    Initial commit

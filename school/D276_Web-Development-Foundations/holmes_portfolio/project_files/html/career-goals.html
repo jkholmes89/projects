@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/styles.css" rel="stylesheet">
+    <script src="../js/script.js" defer></script>
+    <title>Career Goals</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../src/red-logo_v1_sunset-background.svg" alt="bearded unicorn logo" class="header__logo">
+        <nav class="header__nav nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="resume.html" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="cover-letter.html" class="nav__link">Cover Letter</a></li>
+                <li class="nav__item"><a href="career-goals.html" class="nav__link">Career Goals</a></li>
+                <li class="nav__item"><button type="button" class="btn open-modal btn__label" id="nav__btn">Contact Me</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main overlay">
+        <article class="article">
+            <h1 class="article__title">Career Goals</h1>
+
+            
+            <p class="article__text">Currently pursuing a Bachelor’s of Science in Computer Science at Western Governors University, I am driven to bridge the gap between robust software engineering and ethical technology standards. My background in Computer Systems Technology has provided me with a practical understanding of infrastructure, which I am now expanding with advanced study in algorithms and data security.</p>
+
+            <p class="article__text">While my immediate focus is on mastering backend development and cybersecurity, my long-term career objective is to lead in the safe implementation of AI. I aim to evolve into a role focused on AI governance, ensuring that emerging machine learning systems are deployed securely, transparently, and responsibly within enterprise environments.</p>
+        </article>
+        <hr class="article__hr">
+        <article class="article">
+            <h1 class="article__title">Audio and Video</h1>
+            <div id="audio-video-box">
+                <figure class="figure">
+                    <video controls loop muted playsinline class="video">
+                        <source src="../src/NEWREVsunsetwave.mp4" type="video/mp4">
+                    </video>
+                    <cite>Footage by: <a href="https://www.youtube.com/watch?v=Qqc5vNajuIg">RoyaltyFreeTube</a><br>Audio by: <a href="https://www.youtube.com/watch?v=LfaXFyNOi_M">TeknoAxe's - Aerobatics in Slow Motion</a></cite>
+                </figure>
+                <figure class="figure">
+                    <blockquote>
+                        <p>When I was younger, I'd listen to a song and take it literally. I'd think, Boy, what a drag. How horrible, he must be really bummin'.</p>
+                    </blockquote>
+                    <figcaption>
+                        <cite>
+                            -Dusty Hill. Interview. Conducted by Guitar World. 15 February 2008.
+                        </cite>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <audio src="../src/throng-swoop-main-version-33506-01-16.mp3"  class="audio" type="audio/mp3" controls></audio>
+                    <p><cite>Music from #Uppbeat (free for Creators!): <a href="https://uppbeat.io/t/swoop/throng">Throng by Swoop</a><br>License code: LNHWU670BS2EYRPZ</cite></p>
+                </figure>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">
+        <section id="contact_info" class="footer__section">
+            <h2 class="footer__title card__title--dark">Contact Info</h2>
+            <address class="card__text--small">Joshua Holmes<br><a href="mailto:jkholmes1989@gmail.com" class="card__link">jkholmes1989@gmail.com</a><br><a href="tel:+12157923868" class="card__link">(215) 792-3868</a><br><a href="https://github.com/jkholmes89" target="_blank" class="card__link">github.com/jkholmes89</a><br>Audubon, NJ</address>
+        </section>
+        <div class="copyright">
+            <hr id="copyright__hr">
+            <p>&copy; 2026 Joshua Holmes</p>
+        </div>
+    </footer>
+    <dialog id="contact-form">
+        <div class="modal">
+            <button type="button" class="btn-close form-control"></button>
+            <form class="form" action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <fieldset name="form-info" class="form__fieldset">
+                    <legend class="form__legend card__title--small card__title--dark">Get in touch with me!</legend>
+                    <div class="form__section">
+                        <label for="name-first" class="form-label">First Name:</label>
+                        <input id="name-first" name="name-first" type="text" class="form__input-text" placeholder="First Name" autofocus required>
+                    </div>
+                    <div class="form__section">
+                        <label for="name-last" class="form-label">Last Name:</label>
+                        <input id="name-last" name="name-last" type="text" class="form__input-text" placeholder="Last Name" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="company" class="form-label">Company:</label>
+                        <input id="company" name="company" type="text" class="form__input-text" placeholder="Company" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="email" class="form-label">Email:</label>
+                        <input id="email" name="email" type="email" class="form__input-text" placeholder="john.smith@example.com" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="phone" class="form-label">Phone:</label>
+                        <input id="phone" name="phone" type="tel" class="form__input-text" placeholder="(999) 999-9999" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea id="message" name="message" class="form__input-text" placeholder="What would you to speak with me about?"></textarea>
+                    </div>
+                    <div class="form__section form__radio-box">
+                        <div class="radio">
+                            <input id="am" type="radio" name="contact-time" value="am" class="form__input-radio form-radio">
+                            <label for="am" class="form-label">A.M.</label>
+                        </div>
+                        <div class="radio">
+                            <input id="pm" type="radio" name="contact-time" value="pm" class="form__input-radio form-radio">
+                            <label for="pm" class="form-label">P.M.</label>
+                        </div>   
+                        <div class="radio">
+                            <input id="nopref" type="radio" name="contact-time" value="nopref" class="form__input-radio form-radio" checked>
+                            <label for="nopref" class="form-label">Either</label>
+                        </div>
+                    </div>
+                    <div class="form__section">
+                        <label for="contact-options" class="form-label">Contact Method:</label>
+                        <select name="contact-options" id="contact-options" class="form__input-select" required>
+                            <option value="" class="form__input-option">--Please Select an Option--</option>
+                            <option value="phone" class="form__input-option">Phone</option>
+                            <option value="email" class="form__input-option">Email</option>
+                            <option value="text" class="form__input-option">Text</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="form__section form__btn-box">
+                    <button type="submit" class="btn__submit" formmethod="dialog">Submit</button>
+                    <button type="reset" class="btn__reset">Reset Form</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+</body>
+</html>

@@ -1,0 +1,12 @@
+To resolve the merge conflict, I first looked for which files and lines were in conflict. The student ID and version number in the README.md file were in conflict. From there, I opened the file and accepted the changes. Merging the test branch with the working branch was then successful.
+
+Changes made for part C1:
+
+1. file: contact.html
+I changed some wording in the Contact Us section's call to action.
+
+2. file: customers.html
+There was a grammatical error in a customer's quote. The customer used the pronoun "I", but it was written as "i".
+
+3. file: about.html
+There was a misspelling in the staffing section. The word "people" was spelled "poeple". I then removed an extra space in the Training & Support section.	

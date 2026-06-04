@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/styles.css" rel="stylesheet">
+    <script src="../js/script.js" defer></script>
+    <title>Resume</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../src/red-logo_v1_sunset-background.svg" alt="bearded unicorn logo" class="header__logo">
+        <nav class="header__nav nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="resume.html" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="cover-letter.html" class="nav__link">Cover Letter</a></li>
+                <li class="nav__item"><a href="career-goals.html" class="nav__link">Career Goals</a></li>
+                <li class="nav__item"><button type="button" class="btn open-modal btn__label" id="nav__btn">Contact Me</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main overlay">
+        <article class="article grid">
+            <h1 class="article__title grid__column--2">Resume</h1>
+            <section id="summary" class="article__section card">
+                <h2 class="card__title">Professional Summary</h2>
+                <div class="card__section">
+                    <p class="card__text">Motivated Computer Science undergraduate with a completed associate's degree in computer systems technology and a background in military service. Possesses a strong technical aptitude grounded in disciplined execution and teamwork. committed to continuous learning and delivering reliable technical results in a dynamic team environment.</p>
+                </div>
+            </section>
+            <section id="experience" class="article__section grid__row--2 card">
+                <h2 class="card__title">Experience</h2>
+                <div id="pre-pre_technician" class="card__section">
+                    <h3 class="card__title--small card__title--light">Pre-Press Technician</h3>
+                    <p class="card__text"><strong>National Color Graphics</strong><br><em>Current</em> to <em>January, 2013</em></p>
+                    <ul class="card__list">
+                        <li class="card__item card__text"><p>Designed systems to standardize and optimize systems for more efficient and reliable workflows.</p></li>
+                        <li class="card__item"><p class="card__text">Created disaster recovery plan and implemented modern backup systems.</p></li>
+                    </ul>
+                </div>
+                <div id="data_network_specialist" class="card__section">
+                    <h3 class="card__title--small card__title--light">0651 Data Network Specialist</h3>
+                    <p class="card__text"><strong>United States Marine Corps</strong><br><em>May, 2011</em> to <em>July, 2008</em></p>
+                    <ul class="card__list">
+                        <li class="card__item card__text">Provided training for operating technical equipment in field operations.</li>
+                        <li class="card__item card__text">Managed equipment repair and preventative maintenance to ensure operational readiness.</li>
+                        <li class="card__item card__text">Audited transfer logs for classified equipment to ensure 100% accountability and regulatory compliance.</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="education" class="article__section card">
+                <h2 class="card__title">Education</h2>
+                <div id="as_cst" class="card__section">
+                    <h3 class="card__title--small card__title--light">Associate's in Computer Systems Technology</h3>
+                    <p class="card__text"><span class="card__address">Camden County Community College</span>, graduated<time datetime="2015" class="card__time"> 2015</time></p>
+                </div>
+                <div id="bc_cs" class="card__section">
+                    <h3 class="card__title--small card__title--light">Bachelor's in Computer Science</h3>
+                    <p class="card__text"><span class="card__address">Governors University,</span> <span class="card__time">Currently Attending</span></p>
+                </div>
+            </section>
+            <section id="skills" class="article__section grid__column--2 card">
+                <table class="table">
+                    <caption class="table__caption card__title">Skills and Interests</caption>
+                    <tr class="table__row">
+                        <th scope="row" class="table__head">Hard Skills</th>
+                        <td class="table__cell">System Administration</td>
+                        <td class="table__cell">Hardware & Software Installation</td>
+                        <td class="table__cell">Network Integration</td>
+                        <td class="table__cell">Workflow Analysis</td>
+                        <td class="table__cell">Computers and Electronics</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__head">Soft Skills</th>
+                        <td class="table__cell">Critical Thinking</td>
+                        <td class="table__cell">Active Listening</td>
+                        <td class="table__cell">Complex Problem Solving</td>
+                        <td class="table__cell">Judgment and Decision Making</td>
+                        <td class="table__cell">Information Ordering</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__head" >Hobbies</th>
+                        <td class="table__cell">Home Automation</td>
+                        <td class="table__cell">PC Building & Hardware Tinkering</td>
+                        <td class="table__cell">Playing Music</td>
+                        <td class="table__cell"></td>
+                        <td class="table__cell"></td>
+                    </tr>
+                    <tr class="table__row">
+                        <th scope="row" class="table__head">Research Interests</th>
+                        <td class="table__cell">Responsible AI Implementation</td>
+                        <td class="table__cell">DevSecOps</td>
+                        <td class="table__cell">Cloud Compliance Frameworks</td> 
+                        <td class="table__cell"></td>
+                        <td class="table__cell"></td>  
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <section id="contact_info" class="footer__section">
+            <h2 class="footer__title card__title--dark">Contact Info</h2>
+            <address class="card__text--small">Joshua Holmes<br><a href="mailto:jkholmes1989@gmail.com" class="card__link">jkholmes1989@gmail.com</a><br><a href="tel:+12157923868" class="card__link">(215) 792-3868</a><br><a href="https://github.com/jkholmes89" target="_blank" class="card__link">github.com/jkholmes89</a><br>Audubon, NJ</address>
+        </section>
+        <div id="date__today"><script>
+            let date = new Date();
+            date.toLocaleDateString;
+            document.getElementById("date__today").innerHTML = `${date.getFullYear()}\\${date.getMonth()+1}\\${date.getDate()}`;
+            console.log(date)
+        </script></div>
+        <div class="copyright">
+            <hr id="copyright__hr">
+            <p>&copy; 2026 Joshua Holmes</p>
+        </div>
+    </footer>
+        <dialog id="contact-form">
+        <div class="modal">
+            <button type="button" class="btn-close form-control"></button>
+            <form class="form" action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <fieldset name="form-info" class="form__fieldset">
+                    <legend class="form__legend card__title--small card__title--dark">Get in touch with me!</legend>
+                    <div class="form__section">
+                        <label for="name-first" class="form-label">First Name:</label>
+                        <input id="name-first" name="name-first" type="text" class="form__input-text" placeholder="First Name" autofocus required>
+                    </div>
+                    <div class="form__section">
+                        <label for="name-last" class="form-label">Last Name:</label>
+                        <input id="name-last" name="name-last" type="text" class="form__input-text" placeholder="Last Name" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="company" class="form-label">Company:</label>
+                        <input id="company" name="company" type="text" class="form__input-text" placeholder="Company" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="email" class="form-label">Email:</label>
+                        <input id="email" name="email" type="email" class="form__input-text" placeholder="john.smith@example.com" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="phone" class="form-label">Phone:</label>
+                        <input id="phone" name="phone" type="tel" class="form__input-text" placeholder="(999) 999-9999" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea id="message" name="message" class="form__input-text" placeholder="What would you to speak with me about?"></textarea>
+                    </div>
+                    <div class="form__section form__radio-box">
+                        <div class="radio">
+                            <input id="am" type="radio" name="contact-time" value="am" class="form__input-radio form-radio">
+                            <label for="am" class="form-label">A.M.</label>
+                        </div>
+                        <div class="radio">
+                            <input id="pm" type="radio" name="contact-time" value="pm" class="form__input-radio form-radio">
+                            <label for="pm" class="form-label">P.M.</label>
+                        </div>   
+                        <div class="radio">
+                            <input id="nopref" type="radio" name="contact-time" value="nopref" class="form__input-radio form-radio" checked>
+                            <label for="nopref" class="form-label">Either</label>
+                        </div>
+                    </div>
+                    <div class="form__section">
+                        <label for="contact-options" class="form-label">Contact Method:</label>
+                        <select name="contact-options" id="contact-options" class="form__input-select" required>
+                            <option value="" class="form__input-option">--Please Select an Option--</option>
+                            <option value="phone" class="form__input-option">Phone</option>
+                            <option value="email" class="form__input-option">Email</option>
+                            <option value="text" class="form__input-option">Text</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="form__section form__btn-box">
+                    <button type="submit" class="btn__submit" formmethod="dialog">Submit</button>
+                    <button type="reset" class="btn__reset">Reset Form</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+</body>
+</html>

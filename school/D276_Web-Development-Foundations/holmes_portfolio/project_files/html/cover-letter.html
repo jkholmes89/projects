@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/styles.css" rel="stylesheet">
+    <script src="../js/script.js" defer></script>
+    <title>Cover Letter</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../src/red-logo_v1_sunset-background.svg" alt="bearded unicorn logo" class="header__logo">
+        <nav class="header__nav nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="resume.html" class="nav__link">Resume</a></li>
+                <li class="nav__item"><a href="cover-letter.html" class="nav__link">Cover Letter</a></li>
+                <li class="nav__item"><a href="career-goals.html" class="nav__link">Career Goals</a></li>
+                <li class="nav__item"><button type="button" class="btn open-modal btn__label" id="nav__btn">Contact Me</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <article id="cover-letter" class="article">
+            <h1 class="article__title">Cover Letter</h1>
+            <section class="article__section">
+            <p class="article__text"><strong>To the Hiring Team,</strong></p>
+
+            <p class="article__text">I am writing to introduce myself as an emerging software engineer with a systems-first mindset. Currently pursuing my Bachelor of Science in Computer Science at Western Governors University, I am seeking opportunities to apply my blend of operational discipline and technical creativity to build secure, scalable software.</p>
+            
+            <p class="article__text">My transition into software development is built on a strong foundation of practical experience. Holding an Associate’s degree in Computer Systems Technology and having worked in IT support, I understand the infrastructure that code relies on. Years of troubleshooting live environments have instilled in me a "reliability-first" approach to engineering. I do not just view software as lines of code, but as a component of a larger system that must be robust, secure, and maintainable in production.</p>
+            
+            <p class="article__text">This background directly influences my current academic focus. While I am mastering backend development and algorithm design, I am simultaneously researching the intersection of DevSecOps and AI governance. I believe that as technology advances, the responsibility to implement it safely increases. My long-term professional goal is to contribute to the ethical and secure deployment of AI, and I am eager to start that journey by writing high-quality, defensible code today.</p>
+
+            <p class="article__text">I offer the technical curiosity of a student combined with the professional maturity of an experienced IT specialist. I am looking to join a team that values continuous learning and pragmatic problem-solving, where I can contribute to the development lifecycle while continuing to grow as an engineer.</p>
+
+            <p class="article__text">Thank you for your time and consideration. I look forward to the opportunity to discuss how my background and skills can add value to your organization.</p>
+
+            <p class="article__text"><span><em>Sincerely,</em><br>
+            Joshua Holmes</span></p>
+                </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <section id="contact_info" class="footer__section">
+            <h2 class="footer__title card__title--dark">Contact Info</h2>
+            <address class="card__text--small">Joshua Holmes<br><a href="mailto:jkholmes1989@gmail.com" class="card__link">jkholmes1989@gmail.com</a><br><a href="tel:+12157923868" class="card__link">(215) 792-3868</a><br><a href="https://github.com/jkholmes89" target="_blank" class="card__link">github.com/jkholmes89</a><br>Audubon, NJ</address>
+        </section>
+        <div class="copyright">
+            <hr id="copyright__hr">
+            <p>&copy; 2026 Joshua Holmes</p>
+        </div>
+    </footer>
+        <dialog id="contact-form">
+        <div class="modal">
+            <button type="button" class="btn-close form-control"></button>
+            <form class="form" action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <fieldset name="form-info" class="form__fieldset">
+                    <legend class="form__legend card__title--small card__title--dark">Get in touch with me!</legend>
+                    <div class="form__section">
+                        <label for="name-first" class="form-label">First Name:</label>
+                        <input id="name-first" name="name-first" type="text" class="form__input-text" placeholder="First Name" autofocus required>
+                    </div>
+                    <div class="form__section">
+                        <label for="name-last" class="form-label">Last Name:</label>
+                        <input id="name-last" name="name-last" type="text" class="form__input-text" placeholder="Last Name" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="company" class="form-label">Company:</label>
+                        <input id="company" name="company" type="text" class="form__input-text" placeholder="Company" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="email" class="form-label">Email:</label>
+                        <input id="email" name="email" type="email" class="form__input-text" placeholder="john.smith@example.com" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="phone" class="form-label">Phone:</label>
+                        <input id="phone" name="phone" type="tel" class="form__input-text" placeholder="(999) 999-9999" required>
+                    </div>
+                    <div class="form__section">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea id="message" name="message" class="form__input-text" placeholder="What would you to speak with me about?"></textarea>
+                    </div>
+                    <div class="form__section form__radio-box">
+                        <div class="radio">
+                            <input id="am" type="radio" name="contact-time" value="am" class="form__input-radio form-radio">
+                            <label for="am" class="form-label">A.M.</label>
+                        </div>
+                        <div class="radio">
+                            <input id="pm" type="radio" name="contact-time" value="pm" class="form__input-radio form-radio">
+                            <label for="pm" class="form-label">P.M.</label>
+                        </div>   
+                        <div class="radio">
+                            <input id="nopref" type="radio" name="contact-time" value="nopref" class="form__input-radio form-radio" checked>
+                            <label for="nopref" class="form-label">Anytime</label>
+                        </div>
+                    </div>
+                    <div class="form__section">
+                        <label for="contact-options" class="form-label">Contact Method:</label>
+                        <select name="contact-options" id="contact-options" class="form__input-select" required>
+                            <option value="" class="form__input-option">--Please Select an Option--</option>
+                            <option value="phone" class="form__input-option">Phone</option>
+                            <option value="email" class="form__input-option">Email</option>
+                            <option value="text" class="form__input-option">Text</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div class="form__section form__btn-box">
+                    <button type="submit" class="btn__submit" formmethod="dialog">Submit</button>
+                    <button type="reset" class="btn__reset">Reset Form</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+</body>
+</html>
