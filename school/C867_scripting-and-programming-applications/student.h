@@ -1,13 +1,13 @@
-#ifndef STUDENT.H
-#define STUDENT .H
-#include <iostream>
+#ifndef STUDENT_H
+#define STUDENT_H
 #include <string>
 using namespace std;
+#include "degree.h"
 
 class Student
 {
 public:
-    Student(string studentID, string firstName, string lastName, string emailAddress, int age, int daysInCourse[]);
+    Student(string studentID, string firstName, string lastName, string emailAddress, int age, int daysInCourse[], DegreeProgram degreeProgram);
     ~Student();
 
     // Getters
@@ -17,7 +17,7 @@ public:
     string getEmailAddress() const;
     int getAge() const;
     int *getDaysInCourse();
-    string getDegreeProgram() const;
+    DegreeProgram getDegreeProgram() const;
 
     // Setters
     void setStudentID(string studentID);
@@ -26,7 +26,7 @@ public:
     void setEmailAddress(string emailAddress);
     void setAge(int age);
     void setDaysInCourse(int daysInCourse[]);
-    void setDegreeProgram(string degreeProgram);
+    void setDegreeProgram(DegreeProgram degreeProgram);
 
     // Methods
     void print();
@@ -38,6 +38,6 @@ private:
     string emailAddress;
     int age;
     int daysInCourse[3];
-    string degreeProgram;
+    DegreeProgram degreeProgram;
 };
 #endif
